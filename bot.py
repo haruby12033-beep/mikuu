@@ -1,8 +1,9 @@
-TOKEN = os.getenv("TOKEN")
-
+import os
 import discord
 import random
 from datetime import datetime
+
+TOKEN = os.getenv("TOKEN")
 
 intents = discord.Intents.default()
 intents.message_content = True
